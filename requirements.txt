@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+transformers
+optimum[onnxruntime]
+torch
+librosa
+soundfile
+numpy
+python-multipart
