@@ -13,6 +13,6 @@ def load_model():
         provider="CPUExecutionProvider"
     )
     print("Model loaded successfully.")
-    return model
+    return model, processor
 
 #uvicorn main:app --host 0.0.0.0 --port 8000
